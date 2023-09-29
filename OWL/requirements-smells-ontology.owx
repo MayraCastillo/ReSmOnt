@@ -1639,11 +1639,6 @@
         <NamedIndividual IRI="#hu002"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#IR_AsociadoCon_CM"/>
-        <NamedIndividual IRI="#infreq004"/>
-        <NamedIndividual IRI="#olor004"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#IR_SatisfechaPor_I"/>
         <NamedIndividual IRI="#infreq004"/>
         <NamedIndividual IRI="#ind003"/>
@@ -3535,6 +3530,116 @@ Si el usuario no acepta los términos y condiciones de uso y la política de pri
         <DataProperty IRI="#olorUbicacion"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Atributo</IRI>
+        <Literal>Una propiedad física o abstracta medible de una entidad, que es compartida por todas las entidades de una clase de entidad.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CaracteristicaCalidad</IRI>
+        <Literal>Característica que se debe considerar en los requisitos que fueron definidos por las partes interesadas de un sistema.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CasoUso</IRI>
+        <Literal>Representa un escenario específico en el que los actores realizan acciones con el sistema para lograr un objetivo particular.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ConceptoMedible</IRI>
+        <Literal>Relación abstracta entre atributos de entidades y necesidades de información.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CriterioAceptacion</IRI>
+        <Literal>Definen los requisitos sobre cómo debe comportarse la aplicación para que una determinada acción se pueda llevar a cabo, normalmente por parte de un usuario de la aplicación.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CriterioDecision</IRI>
+        <Literal>Umbrales, objetivos o patrones utilizados para determinar la necesidad de actuar o realizar más investigaciones, o para describir el nivel de confianza en un resultado determinado.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EnfoqueMedicion</IRI>
+        <Literal>Secuencia de operaciones destinadas a determinar el valor de un resultado de medición.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Escala</IRI>
+        <Literal>Conjunto de valores con propiedades definidas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FuncionMedicion</IRI>
+        <Literal>Un algoritmo o cálculo realizado para combinar dos o más medidas base o derivadas. (Una función de medición es el enfoque de medición que define una medida derivada).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HistoriaUsuario</IRI>
+        <Literal>Es la descripción simple y comprensible de una funcionalidad que será valiosa para un usuario o comprador de un sistema o software.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Indicador</IRI>
+        <Literal>Es una medida que se deriva de otras medidas utilizando un modelo de análisis como enfoque de medición.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#InformacionRequerida</IRI>
+        <Literal>Conocimiento necesario para gestionar objetivos, metas, riesgos y problemas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MecanismoMedicion</IRI>
+        <Literal>Secuencia lógica de operaciones, descrita genéricamente, utilizada para cuantificar un atributo con respecto a una escala específica. (Un método de medición es el enfoque de medición que define una medida base).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Medicion</IRI>
+        <Literal>Es un conjunto de operaciones que tienen por objeto determinar un valor de un resultado de medición, para un atributo dado de una entidad, utilizando un enfoque de medición.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Medida</IRI>
+        <Literal>El enfoque de medición definido y la escala de medición.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MedidaBase</IRI>
+        <Literal>Una medida de un atributo que no depende de ninguna otra medida y cuyo enfoque de medición es un método de medición.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MedidaDerivada</IRI>
+        <Literal>Una medida que se deriva de otras medidas base o derivadas, utilizando una función de medición como enfoque de medición.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ModeloAnalisis</IRI>
+        <Literal>Algoritmo o cálculo que combina una o más medidas con criterios de decisión asociados. (Un modelo de análisis es el enfoque de medición que define un indicador).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ModeloCalidad</IRI>
+        <Literal>El conjunto de conceptos medibles y las relaciones entre ellos que proporcionan la base para especificar los requisitos de calidad y evaluar la calidad de las entidades de una clase de entidad dada.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Olor</IRI>
+        <Literal>Indicador de una violación de calidad en un artefacto de requisitos, que puede conducir a uno o muchos defectos, con una ubicación concreta y un mecanismo de detección concreto.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RequisitoSoftware</IRI>
+        <Literal>Condición o capacidad que necesita el usuario para resolver un problema o conseguir un objetivo determinado.Condición o capacidad que necesita el usuario para resolver un problema o conseguir un objetivo determinado.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UnidadMedida</IRI>
+        <Literal>Cantidad particular, definida y adoptada por convención, con la que se comparan otras cantidades del mismo tipo para expresar su magnitud relativa a esa cantidad.</Literal>
+    </AnnotationAssertion>
 </Ontology>
 
 
