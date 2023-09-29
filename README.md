@@ -1,1 +1,2 @@
-# RequirementsSmellsOntology
+# ReSmOnt
+ Requirements Smells Ontology
